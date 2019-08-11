@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+  font-family: cursive;
+}
+
+html {
+  background: url(images/fox.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
+  background-size: cover; /* cover whole screen*/
+}
+
+h1 {
+  color: navy;
+}
+
+p {
+  font-style: italic;
+}
