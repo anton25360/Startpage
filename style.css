@@ -7,3 +7,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	/* Google "digital art wallpaper" for wallpapers*/
+	background: url(http://hdqwalls.com/wallpapers/warrior-dreamy-concept-fantasy-digital-art-artwork-56.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
+	background-size: cover; /* cover whole screen*/
+  }
