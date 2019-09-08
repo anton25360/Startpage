@@ -13,3 +13,24 @@ html {
 	background: url(http://hdqwalls.com/wallpapers/warrior-dreamy-concept-fantasy-digital-art-artwork-56.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
 	background-size: cover; /* cover whole screen*/
   }
+
+.container{
+	border: 2px solid gold;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.row1 img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+.row2 img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
