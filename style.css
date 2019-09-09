@@ -1,17 +1,39 @@
+* {
+	box-sizing: border-box;
+	font-family: product_sansregular;
+}
+
 body {
-  margin: 20px;
-  font-family: cursive;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 html {
-  background: url(images/fox.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
-  background-size: cover; /* cover whole screen*/
+	/* Google "digital art wallpaper" for wallpapers*/
+	background: url(https://hdqwalls.com/wallpapers/warrior-dreamy-concept-fantasy-digital-art-artwork-56.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
+	background-size: cover; /* cover whole screen*/
+	height: 100%;
+  }
+
+.container{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
-h1 {
-  color: navy;
+.container .message{
+	font-size: 50px;
+	color: white;
+	margin-bottom: 30px;
 }
 
-p {
-  font-style: italic;
+.row1 img, .row2 img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+	border-radius: 22px;
+	margin: 20px;
 }
