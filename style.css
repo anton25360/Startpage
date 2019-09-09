@@ -6,31 +6,34 @@
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 html {
 	/* Google "digital art wallpaper" for wallpapers*/
-	background: url(http://hdqwalls.com/wallpapers/warrior-dreamy-concept-fantasy-digital-art-artwork-56.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
+	background: url(https://hdqwalls.com/wallpapers/warrior-dreamy-concept-fantasy-digital-art-artwork-56.jpg) no-repeat center center fixed; /* repeat, position, attachment(scroll with page) */
 	background-size: cover; /* cover whole screen*/
+	height: 100%;
   }
 
 .container{
-	border: 2px solid gold;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
-.row1 img{
+.container .message{
+	font-size: 50px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.row1 img, .row2 img{
 	height: 100px;
 	width: 100px;
 	border: 2px solid white;
-	border-radius: 20px;
-}
-
-.row2 img{
-	height: 100px;
-	width: 100px;
-	border: 2px solid white;
-	border-radius: 20px;
+	border-radius: 22px;
+	margin: 20px;
 }
