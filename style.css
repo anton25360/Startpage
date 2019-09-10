@@ -30,7 +30,7 @@ html {
 	margin-bottom: 30px;
 }
 
-.row1 img, .row2 img{
+img{
 	height: 100px;
 	width: 100px;
 	border: 2px solid white;
